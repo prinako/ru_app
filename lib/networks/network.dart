@@ -16,9 +16,10 @@ class NetworkHelper {
   ///
   /// The data is stored in the [cardapio] property.
   Future getData() async {
-    Uri url = Uri.parse(Env.api);
+    Uri url = Env.api;
     // Uri url = Uri.parse('http://ru.server.net/api');
     try {
+      
       http.Response response = await http.get(
         url,
       );
@@ -29,10 +30,9 @@ class NetworkHelper {
         cardapio = json;
         return cardapio;
       } else {
-        // print(response.statusCode);
+        return cardapio;
       }
     } catch (e) {
-      // print(e);
       return cardapio;
     }
   }
@@ -44,7 +44,7 @@ class NetworkHelper {
   ///
   /// The [token] parameter is optional and defaults to [null].
   Future postUserToken({String? token}) async {
-    Uri url = Uri.parse(Env.token);
+    Uri url = Env.token;
     // Uri url = Uri.parse('http://ru.server.net/token');
 
     try {
@@ -66,7 +66,7 @@ class NetworkHelper {
   ///
   /// The news is stored in the [news] property.
   Future getNews() async {
-    Uri url = Uri.parse(Env.news);
+    Uri url = Env.news;
     // Uri url = Uri.parse('http://ru.server.net/api');
     try {
       http.Response response = await http.get(
