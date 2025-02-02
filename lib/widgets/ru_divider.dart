@@ -18,7 +18,7 @@ class RuDivider extends StatelessWidget {
         ),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(
-            Radius.circular(20),
+            Radius.circular(15),
           ),
         ),
         child: Padding(
