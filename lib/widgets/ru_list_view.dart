@@ -19,6 +19,7 @@ class RuListView extends StatelessWidget {
     final List<dynamic> cardapioDeHoje = context.watch<Data>().cardapioDeHoje;
     final listOfNewsAndImages = context.read<Data>().listOfNews;
     bool isNews = listOfNewsAndImages.isNotEmpty;
+    // print(cardapioDeHoje.length);
 
     return RefreshIndicator(
       color: kNavbarBackgroundColor,

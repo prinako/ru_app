@@ -35,6 +35,7 @@
         "portanto",
         "Preço",
         "precos",
+        "prinako",
         "privacidade",
         "projeto",
         "quer",
@@ -56,5 +57,7 @@
         "você"
     ],
     "editor.fontSize": 18,
-    "editor.tabSize": 5
+    "editor.tabSize": 5,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "on",
 }
