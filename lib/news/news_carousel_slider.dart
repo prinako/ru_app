@@ -45,7 +45,7 @@ class NewsCarouselSlider extends StatelessWidget {
                   ? const EdgeInsets.all(0.0)
                   : const EdgeInsets.all(8.0),
               child: ClipRRect(
-                borderRadius: BorderRadius.circular(30),
+                borderRadius: BorderRadius.circular(15),
                 child: SizedBox(
                   width: MediaQuery.of(context).size.width,
                   child: isImage

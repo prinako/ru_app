@@ -29,10 +29,12 @@ class ShowInformationDialog extends StatelessWidget {
                     Text(
                       'Almoço: 11:00h ás 14:00h',
                       semanticsLabel: 'Almoço horário de funcionamento',
+                      style: TextStyle(fontSize: 18),
                     ),
                     Text(
                       'Jantar: 17:45h ás 19:15h',
                       semanticsLabel: 'Jantar horário de funcionamento',
+                      style: TextStyle(fontSize: 18),
                     ),
                     SizedBox(
                       height: 5,

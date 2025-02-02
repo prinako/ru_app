@@ -72,7 +72,7 @@ class CardContainer extends StatelessWidget {
           shadowColor: kSecondaryColor,
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.all(
-              Radius.circular(30),
+              Radius.circular(15),
             ),
           ),
           child: Padding(
